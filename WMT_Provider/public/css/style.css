@@ -1,0 +1,190 @@
+/* Sidebar */
+#sidebar-wrapper{
+    z-index:1;
+    position: absolute;
+    width:0;
+    height:100%;
+    overflow-y:hidden;
+    background:black;
+    opacity:0.9;
+      transition:all .5s;
+      display:flex;
+      align-items:center;
+  }
+  
+  /* Main Content */
+  #page-content-wrapper{
+    width: 100%;	
+    position: absolute;
+    padding:15px;
+      transition:all .5s;
+  }
+  
+  #menu-toggle{
+      transition:all .3s;
+      font-size:2em;
+  }
+  /* Change the width of the sidebar to display it*/
+  #wrapper.menuDisplayed #sidebar-wrapper{
+    width:250px;
+  }
+  
+  #wrapper.menuDisplayed #page-content-wrapper{
+    padding-left:250px;
+  }
+  
+  /* Sidebar styling */
+  .sidebar-nav{
+    padding:0;
+    list-style:none; 
+      transition:all .5s;
+      width:100%;
+      text-align:center;
+  }
+  
+  .sidebar-nav li{
+    line-height:40px;  
+      width:100%;
+      transition:all .3s;
+      padding:10px;
+  }
+  
+  .sidebar-nav li a {
+    display:block;
+    text-decoration:none;
+    color:#ddd;
+  }
+  
+  .sidebar-nav li:hover{
+    background:black
+  }
+  
+  
+  .container {
+    
+    width: 100%;
+    height: 100%;
+    
+    padding: 20px;
+    
+}
+
+.th{
+    background-color: black;
+    color: white ;
+}
+
+
+
+
+
+
+
+/* Login and main Page */
+
+
+
+
+.body {
+  font-family: "Lato", sans-serif;
+}
+
+
+
+.main-head{
+  height: 150px;
+  background: #FFF;
+ 
+}
+
+.sidenav {
+  height: 100%;
+  background-color: #000;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+
+.main {
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+}
+
+@media screen and (max-width: 450px) {
+  .login-form{
+      margin-top: 10%;
+  }
+
+  .register-form{
+      margin-top: 10%;
+  }
+}
+
+@media screen and (min-width: 768px){
+  .main{
+      margin-left: 40%; 
+  }
+
+  .sidenav{
+      width: 40%;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+  }
+
+  .login-form{
+      margin-top: 80%;
+  }
+
+  .register-form{
+      margin-top: 20%;
+  }
+}
+
+
+.login-main-text{
+  margin-top: 20%;
+  padding: 60px;
+  color: #fff;
+}
+
+.login-main-text h2{
+  font-weight: 300;
+}
+
+.btn-black{
+  background-color: #000 !important;
+  color: #fff;
+}
+
+/* List User */
+
+
+
+
+
+
+
+
+
+.container {
+  
+  width: 100%;
+  height: 100%;
+  
+  padding: 20px;
+  
+}
+
+.th{
+  background-color: black;
+  color: white ;
+}
+
+
+
+/* Add User*/
